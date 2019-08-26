@@ -3083,8 +3083,8 @@ int SV_BoundRate (qbool dl, int rate)
 
 	if (rate < 500)
 		rate = 500;
-	if (rate > 100000)
-		rate = 100000;
+	if (rate > 200000)
+		rate = 200000;
 
 	return rate;
 }
